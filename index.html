@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Library</title>
+    <link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+  </head>
+  <body>
+  <main>
+		<h1>My Library</h1>
+		<div id="library">
+		</div>
+		<button type="button" id="newBook">NEW BOOK</button>
+  </main>
+  <section>
+		<form action="#" id="myForm">
+			<fieldset>
+				<legend>Insert Data for the new Book</legend>
+				<div class="author">
+					<label for="authorName">Author name:</label>
+					<input type="text" id="authorName" name="authorName">
+				</div>
+				<div class="title">
+					<label for="title">Book Title:</label>
+					<input type="text" id="title" name="title">
+				</div>
+				<div class="pages">
+					<label for="pagesNumber">Pages Number:</label>
+					<input type="text" id="pagesNumber" name="pagesNumber">
+				</div>
+				<div class="read">
+					<label for="hasBeenRead">Have i read it?:</label>
+					<input type="text" id="hasBeenRead" name="hasBeenRead">
+				</div>
+				<button type="submit" id="addBook">ADD BOOK</button>
+				<button type="reset" id="clearing">CLEAR</button>
+			</fieldset>
+		</form>
+  </section>
+	<script src="index.js"></script>
+  </body>
+</html>
