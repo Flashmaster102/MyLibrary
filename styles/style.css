@@ -1,0 +1,69 @@
+body
+{
+	display:grid;
+	grid-template-columns:2fr 1fr;
+	padding-left:15px;
+}
+
+.author,.title,.pages,.read
+{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+form
+{
+	margin-right:15px;
+}
+
+form div
+{
+	margin-top:10px;
+}
+
+form button
+{
+	margin-left:20px;
+	margin-top:15px;
+}
+
+label
+{
+	margin-left:20px;
+}
+
+h1
+{
+	text-align:center;
+}
+
+.aBook
+{
+	width:200px;
+	padding:10px;
+	border:3px dashed black;
+	background-image: linear-gradient(to bottom, rgb(176,194,213),white 700px);
+	font-weight:bold;
+}
+
+#library
+{
+	display:flex;
+	flex-wrap:wrap;
+	gap:5px;
+	margin-bottom:15px;
+}
+
+#library p
+{
+	border-bottom:2px solid green;
+}
+
+#library button
+{
+	border:2px solid black;
+	border-radius:10px;
+	margin-left:10px;
+	padding:5px;
+}
